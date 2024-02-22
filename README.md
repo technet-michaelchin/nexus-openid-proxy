@@ -12,7 +12,7 @@ This project aim to build a proxy in front of nexus so that the SSO (Keycloak) c
 
 ### Setup Realm for Nexus
 
-This project is utilizing the [Remote User Token](https://help.sonatype.com/en/authentication-via-remote-user-token.html) of **Nexus**. Please activate http header integration by adding and enabling the **Rut Auth** capability in nexus:
+This project is utilizing the [Remote User Token](https://help.sonatype.com/en/authentication-via-remote-user-token.html) of **Nexus**. Please activate http header integration by adding and enabling **Rut Auth** capability in nexus:
 
 1. Log in as a user with administrative rights.
 2. Access the **Server configuration** in the **Administration** menu section on the left.
