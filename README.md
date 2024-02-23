@@ -9,6 +9,7 @@ This project aim to build a proxy in front of nexus so that the SSO (Keycloak) c
 ## Prerequisite
 
 > This project is using **Keycloak** as **OAuth Issuer**
+> The Nexus Repository on port 8443 should only be accessed by the proxy only, or the firewall should block direct traffic to port 8443 if the source is not the proxy.
 
 ### Setup Realm for Nexus
 
@@ -22,8 +23,6 @@ This project is utilizing the [Remote User Token](https://help.sonatype.com/en/a
 6. Now click **Realms** under **Security** in the Administration menu on the left.
 7. Move the **Rut Auth Realm** to the top of the Active list.
 8. Click Save.
-
-> The Nexus Repository on port 8443 should only be accessed by the proxy only, or the firewall should block direct traffic to port 8443 if the source is not the proxy.
 
 ## Enviroment Variables
 
