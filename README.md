@@ -8,7 +8,7 @@ This project aim to build a proxy in front of nexus so that the SSO (Keycloak) c
 
 ## Prerequisite
 
-> This project is using **Keycloak** as **OAuth Issuer**
+> This project is using **Keycloak** as **OAuth Issuer**.
 > The Nexus Repository on port 8443 should only be accessed by the proxy only, or the firewall should block direct traffic to port 8443 if the source is not the proxy.
 
 ### Setup Realm for Nexus
